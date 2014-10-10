@@ -1,0 +1,11 @@
+<div>
+    <div>
+        <label>String: {{selectedString}}</label>
+        <label>Fret: {{selectedFret}}</label>
+    </div>
+
+    <button data-ng-repeat="option in options" data-ng-click="checkOption(option)">{{option}}</button>
+    <button data-ng-click="randomize()">Randomize</button>
+
+    <label>{{result}}</label>
+</div>
