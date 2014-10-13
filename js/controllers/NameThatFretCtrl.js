@@ -46,7 +46,7 @@ guitarToolsApp.controller('NameThatFretCtrl', function($scope){
         }
 
         return array;
-    }
+    };
 
     $scope.randomize = function(){
         $scope.result = "";

@@ -10,5 +10,9 @@ guitarToolsApp = angular.module('guitarToolsApp', ['ngRoute', 'ui.bootstrap'])
                 templateUrl: 'views/nameThatFret.html',
                 controller: 'NameThatFretCtrl'
             })
+            .when('/metronome',{
+                templateUrl: 'views/metronome.html',
+                controller: 'MetronomeCtrl'
+            })
             .otherwise('/');
     });

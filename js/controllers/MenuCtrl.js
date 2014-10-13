@@ -9,4 +9,8 @@ guitarToolsApp.controller('MenuCtrl', function($scope, $location){
     $scope.goToNameThatFret = function(){
         $location.path('/nameThatFret');
     };
+
+    $scope.goToMetronome = function(){
+        $location.path('/metronome');
+    }
 });
