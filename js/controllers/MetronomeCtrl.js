@@ -7,7 +7,7 @@ guitarToolsApp.controller('MetronomeCtrl', function($scope){
     
 
     $scope.up = function(){
-
+        console.log("yeah baby");
     };
 
     $scope.up = function(){
