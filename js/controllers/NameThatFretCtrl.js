@@ -66,7 +66,6 @@ guitarToolsApp.controller('NameThatFretCtrl', function($scope){
 
         var fretIndex = $scope.keyList.indexOf(string);
         $scope.answer = $scope.keyList[fretIndex + fret];
-        console.log($scope.answer);
 
         //create options
         var options = [];
